@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "coverDebt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lib/src/abstract-base/AbstractCallback.sol": "AbstractCallback"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lib/src/abstract-base/AbstractCallback.sol": {
+			"keccak256": "0x55e200ab3cced932c42553fa0c43bf186848ca12b756a3a0396ba156b6946233",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://5a9d10823d238fa69760dbe64a394614d9eafac27f2ad4209fde5c8d640144cb",
+				"dweb:/ipfs/QmNfLWocJweKJDNVt3vq9aUXPGaGXZGiCdCBruP7ki4moE"
+			]
+		},
+		"lib/src/abstract-base/AbstractPayer.sol": {
+			"keccak256": "0xba40518e5c2ef57c0b4241014b9a4eb8e80e8ee5c57ca0939cb09f1c93c78572",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6e247afa1695610d478da62c2f6fbb03c4d9e1d71dd3fa5ccf74d5ce2001bcbc",
+				"dweb:/ipfs/QmUawi55MhXxGKkGFV2uSrj8ifMBepdkqf7DCYo7aBYKjA"
+			]
+		},
+		"lib/src/interfaces/IPayable.sol": {
+			"keccak256": "0x77be75980cd3d54c7914be8012467c9b06714710bf2ebb46c1c060de0572eecc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a2347d0947d2d246e04966b963416c3a5913b6ff6bb8b8f1a1b7ea8af53c867f",
+				"dweb:/ipfs/QmUnRncvbeCjuqVFCuBWARWzQxf8G62RCsamEMez1cWfVe"
+			]
+		},
+		"lib/src/interfaces/IPayer.sol": {
+			"keccak256": "0x4cf0b1460730802d8a79107b5f46fa2702f4f68e2315c0d6f0cc9e82f6b21076",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b4c3f089d8f14eadea8d21ddaec735472b13b42852a058cbe5226d741bcb9ebe",
+				"dweb:/ipfs/QmcjTLejdAmboUm1CbxpjMbS4p5nFXdLesjAHevQEL35Uv"
+			]
+		}
+	},
+	"version": 1
+}

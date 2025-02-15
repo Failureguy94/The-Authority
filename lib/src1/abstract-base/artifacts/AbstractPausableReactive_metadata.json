@@ -1,0 +1,224 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "chain_id",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint64",
+						"name": "gas_limit",
+						"type": "uint64"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "payload",
+						"type": "bytes"
+					}
+				],
+				"name": "Callback",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "coverDebt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pause",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "chain_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "block_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "op_code",
+						"type": "uint256"
+					}
+				],
+				"name": "react",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resume",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lib/src/abstract-base/AbstractPausableReactive.sol": "AbstractPausableReactive"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lib/src/abstract-base/AbstractPausableReactive.sol": {
+			"keccak256": "0x58547ca66de0f18bdfbcad275c83deb8b1db3af7cad942643cfa4e9df5b1ee74",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a4122bbf71f63d7e0831e64a64026188a7ffd34d1f8c1939a1db2dbf3817c0b3",
+				"dweb:/ipfs/QmVKvgSApBGLW2T2Vu75QXAykq4yVqPkjxcxkND9vsbfhY"
+			]
+		},
+		"lib/src/abstract-base/AbstractPayer.sol": {
+			"keccak256": "0xba40518e5c2ef57c0b4241014b9a4eb8e80e8ee5c57ca0939cb09f1c93c78572",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6e247afa1695610d478da62c2f6fbb03c4d9e1d71dd3fa5ccf74d5ce2001bcbc",
+				"dweb:/ipfs/QmUawi55MhXxGKkGFV2uSrj8ifMBepdkqf7DCYo7aBYKjA"
+			]
+		},
+		"lib/src/abstract-base/AbstractReactive.sol": {
+			"keccak256": "0x82e45f5ebb0518119bb1fd64ee327774147bf3a42eb02fa8aee36249aa64253a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://8dfa5228051ec1239b9e4c3a83794b234b8b72be39d097b33153f1d75ac04eb1",
+				"dweb:/ipfs/QmVDgyWN3CJGb3rvTB12wuF6pnCAbYWPssfNwAtJrt6ZaF"
+			]
+		},
+		"lib/src/interfaces/IPayable.sol": {
+			"keccak256": "0x77be75980cd3d54c7914be8012467c9b06714710bf2ebb46c1c060de0572eecc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a2347d0947d2d246e04966b963416c3a5913b6ff6bb8b8f1a1b7ea8af53c867f",
+				"dweb:/ipfs/QmUnRncvbeCjuqVFCuBWARWzQxf8G62RCsamEMez1cWfVe"
+			]
+		},
+		"lib/src/interfaces/IPayer.sol": {
+			"keccak256": "0x4cf0b1460730802d8a79107b5f46fa2702f4f68e2315c0d6f0cc9e82f6b21076",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b4c3f089d8f14eadea8d21ddaec735472b13b42852a058cbe5226d741bcb9ebe",
+				"dweb:/ipfs/QmcjTLejdAmboUm1CbxpjMbS4p5nFXdLesjAHevQEL35Uv"
+			]
+		},
+		"lib/src/interfaces/IReactive.sol": {
+			"keccak256": "0xb9e128cd33d97a8a8f6413c90d091d9143cb4b6283331a77af9411f116e18509",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d53e8a0ed13fbdd3a7d9358c3820fbd3d602f03860a880785c5bcdd4154e5bf4",
+				"dweb:/ipfs/QmadcUW6b1UGqrai1Y5HdiGeveSrqQ8VULjUGXdPgv1QBe"
+			]
+		},
+		"lib/src/interfaces/ISubscriptionService.sol": {
+			"keccak256": "0x01305d06478fe414b670b3df5b10c574263321aadbff5824b05c09b466021151",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://97429621cbb5b4a86229717cf258ce7affc0c96df563ac7b9179d2436065026f",
+				"dweb:/ipfs/QmPzShvaEjpqTFh1qH9kxAg8uWkj63JtDPdQo6CdrZEpzZ"
+			]
+		},
+		"lib/src/interfaces/ISystemContract.sol": {
+			"keccak256": "0xd32b15dc5aece1ef48e8c36a3a829b5c83b71df08ea57f755c58085b41245740",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://94f969bad9861cd2c3910a6cc48dc920ec74a0b723465b58d8db68bdeeca749d",
+				"dweb:/ipfs/QmRhFw52Bqhyiw1Bbzny4jgyojt1UcSC5dFZiLtK2U1S8V"
+			]
+		}
+	},
+	"version": 1
+}

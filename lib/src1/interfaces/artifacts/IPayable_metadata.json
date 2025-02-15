@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					}
+				],
+				"name": "debt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lib/src/interfaces/IPayable.sol": "IPayable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lib/src/interfaces/IPayable.sol": {
+			"keccak256": "0x77be75980cd3d54c7914be8012467c9b06714710bf2ebb46c1c060de0572eecc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a2347d0947d2d246e04966b963416c3a5913b6ff6bb8b8f1a1b7ea8af53c867f",
+				"dweb:/ipfs/QmUnRncvbeCjuqVFCuBWARWzQxf8G62RCsamEMez1cWfVe"
+			]
+		}
+	},
+	"version": 1
+}

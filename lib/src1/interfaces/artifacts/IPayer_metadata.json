@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lib/src/interfaces/IPayer.sol": "IPayer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lib/src/interfaces/IPayer.sol": {
+			"keccak256": "0x4cf0b1460730802d8a79107b5f46fa2702f4f68e2315c0d6f0cc9e82f6b21076",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b4c3f089d8f14eadea8d21ddaec735472b13b42852a058cbe5226d741bcb9ebe",
+				"dweb:/ipfs/QmcjTLejdAmboUm1CbxpjMbS4p5nFXdLesjAHevQEL35Uv"
+			]
+		}
+	},
+	"version": 1
+}

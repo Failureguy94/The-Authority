@@ -1,0 +1,155 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "chain_id",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint64",
+						"name": "gas_limit",
+						"type": "uint64"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "payload",
+						"type": "bytes"
+					}
+				],
+				"name": "Callback",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "chain_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "block_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "op_code",
+						"type": "uint256"
+					}
+				],
+				"name": "react",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lib/src/interfaces/IReactive.sol": "IReactive"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lib/src/interfaces/IPayer.sol": {
+			"keccak256": "0x4cf0b1460730802d8a79107b5f46fa2702f4f68e2315c0d6f0cc9e82f6b21076",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b4c3f089d8f14eadea8d21ddaec735472b13b42852a058cbe5226d741bcb9ebe",
+				"dweb:/ipfs/QmcjTLejdAmboUm1CbxpjMbS4p5nFXdLesjAHevQEL35Uv"
+			]
+		},
+		"lib/src/interfaces/IReactive.sol": {
+			"keccak256": "0xb9e128cd33d97a8a8f6413c90d091d9143cb4b6283331a77af9411f116e18509",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d53e8a0ed13fbdd3a7d9358c3820fbd3d602f03860a880785c5bcdd4154e5bf4",
+				"dweb:/ipfs/QmadcUW6b1UGqrai1Y5HdiGeveSrqQ8VULjUGXdPgv1QBe"
+			]
+		}
+	},
+	"version": 1
+}

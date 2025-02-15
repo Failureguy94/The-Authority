@@ -1,0 +1,158 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"debt(address)": "9b6c56ec",
+			"subscribe(uint256,address,uint256,uint256,uint256,uint256)": "5a6aced0",
+			"unsubscribe(uint256,address,uint256,uint256,uint256,uint256)": "2f807336"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_contract",
+					"type": "address"
+				}
+			],
+			"name": "debt",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "chain_id",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "_contract",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_0",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_1",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_2",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_3",
+					"type": "uint256"
+				}
+			],
+			"name": "subscribe",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "chain_id",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "_contract",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_0",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_1",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_2",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "topic_3",
+					"type": "uint256"
+				}
+			],
+			"name": "unsubscribe",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"stateMutability": "payable",
+			"type": "receive"
+		}
+	]
+}

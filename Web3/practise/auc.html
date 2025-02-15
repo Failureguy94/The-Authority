@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dutch Auction DApp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+
+  <h1>Welcome to the Dutch Auction DApp</h1>
+
+  <button id="connectButton">Connect Wallet</button>
+
+  <div>
+    <h3>Auction Details</h3>
+    <p>Current Price: <span id="currentPrice">Loading...</span> ETH</p>
+    <p>Time Remaining: <span id="timeRemaining">Loading...</span></p>
+    <button id="buyButton" style="display:none;">Buy NFT</button>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

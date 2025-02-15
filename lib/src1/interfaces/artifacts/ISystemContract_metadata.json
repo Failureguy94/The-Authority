@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					}
+				],
+				"name": "debt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "chain_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_3",
+						"type": "uint256"
+					}
+				],
+				"name": "subscribe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "chain_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "topic_3",
+						"type": "uint256"
+					}
+				],
+				"name": "unsubscribe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lib/src/interfaces/ISystemContract.sol": "ISystemContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lib/src/interfaces/IPayable.sol": {
+			"keccak256": "0x77be75980cd3d54c7914be8012467c9b06714710bf2ebb46c1c060de0572eecc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a2347d0947d2d246e04966b963416c3a5913b6ff6bb8b8f1a1b7ea8af53c867f",
+				"dweb:/ipfs/QmUnRncvbeCjuqVFCuBWARWzQxf8G62RCsamEMez1cWfVe"
+			]
+		},
+		"lib/src/interfaces/ISubscriptionService.sol": {
+			"keccak256": "0x01305d06478fe414b670b3df5b10c574263321aadbff5824b05c09b466021151",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://97429621cbb5b4a86229717cf258ce7affc0c96df563ac7b9179d2436065026f",
+				"dweb:/ipfs/QmPzShvaEjpqTFh1qH9kxAg8uWkj63JtDPdQo6CdrZEpzZ"
+			]
+		},
+		"lib/src/interfaces/ISystemContract.sol": {
+			"keccak256": "0xd32b15dc5aece1ef48e8c36a3a829b5c83b71df08ea57f755c58085b41245740",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://94f969bad9861cd2c3910a6cc48dc920ec74a0b723465b58d8db68bdeeca749d",
+				"dweb:/ipfs/QmRhFw52Bqhyiw1Bbzny4jgyojt1UcSC5dFZiLtK2U1S8V"
+			]
+		}
+	},
+	"version": 1
+}
